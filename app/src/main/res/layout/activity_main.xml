@@ -1,0 +1,37 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#E0D1FB"
+    android:padding="100px"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Addition"
+        android:layout_margin="30px"
+        android:background="#8B4EF8"
+        android:id="@+id/additionbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Subtraction"
+        android:layout_margin="30px"
+        android:background="#8B4EF8"
+        android:id="@+id/subtractionbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Multiplication"
+        android:layout_margin="30px"
+        android:background="#8B4EF8"
+        android:id="@+id/multiplicationbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Division"
+        android:layout_margin="30px"
+        android:background="#8B4EF8"
+        android:id="@+id/divisionbtn"/>
+</LinearLayout>
